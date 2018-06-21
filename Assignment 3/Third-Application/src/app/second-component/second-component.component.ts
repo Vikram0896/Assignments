@@ -13,10 +13,10 @@ export class SecondComponentComponent implements OnInit {
   onClickMe() {
     this.clickMessage = 'Button Clicked..!';
   }
-  //Write one public function inside class named as fun() and call that function inside{{ call }}.
-  fun()
+  
+ public fun()
   {
-    return "Point No 3: Hello";
+    return " Function Hello";
   }
   constructor() { }
 
